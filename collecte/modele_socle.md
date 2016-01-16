@@ -1,4 +1,4 @@
-    iderp nom categorie type activite lat lon
+    nom,activite,adresse,lat,lon,type,categorie
 
 # Modèle de données pour le socle
 
