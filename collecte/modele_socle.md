@@ -1,4 +1,6 @@
-Modèle de données pour le socle
+    iderp nom categorie type activite lat lon
+
+# Modèle de données pour le socle
 
  - Identifiant ERP - champ auto incrémenté - champ iderp
  - Dénomination - Nom de l'établissement - champ nom
