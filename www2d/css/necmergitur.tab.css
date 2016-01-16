@@ -1,0 +1,75 @@
+/**
+	Tablette horizontale
+*/
+@media screen and (orientation:landscape) and (min-width:1024px) {
+
+#fiche2
+{	width:50%;
+}
+
+#bandeau
+{	width:50%;
+	height:30%;
+}
+
+.fiche #map
+{	width:50%;
+	left:auto;
+}
+
+}
+
+/**
+	Tablette verticale
+*/
+@media screen and (orientation:portrait) and (min-height:1024px) {
+
+#fiche2
+{	height: 50%;
+	top: 50%;
+}
+#bandeau
+{	top:35%;
+	height:15%
+}
+
+.fiche #map
+{	height:35%;
+	bottom:auto;
+}
+
+}
+
+/**
+	Smartphone
+*/
+@media screen and (max-width:600px) {
+
+#fiche2 .grid .label
+{	width:40%;
+}
+
+#fiche2 .grid .label.full,
+#fiche2 .grid .data.full
+{	width:100%
+}
+
+#fiche2 .grid .data
+{	width:60%;
+}
+
+}
+
+@media screen and (orientation:landscape) and (max-height:600px) {
+
+#fiche2
+{	top:0;
+	height:100%;
+}
+
+#fiche2.visible .pointlogo
+{	top:-10px;
+	font-size: 3em;
+}
+
+}

@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<!--
+ _ __   ___  ___   _ __ ___   ___ _ __ __ _(_) |_ _   _ _ __ 
+| '_ \ / _ \/ __| | '_ ` _ \ / _ \ '__/ _` | | __| | | | '__|
+| | | |  __/ (__  | | | | | |  __/ | | (_| | | |_| |_| | |   
+|_| |_|\___|\___| |_| |_| |_|\___|_|  \__, |_|\__|\__,_|_|   
+                                      |___/                  
+-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <!meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+	<link rel="stylesheet" type="text/css" href="css/ol.css" />
+	<link rel="stylesheet" type="text/css" href="js/wapp/cordovapp.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/font-tools.css" />
+	<link rel="stylesheet" type="text/css" href="css/fontign.css" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/necmergitur.css" />
+	<link rel="stylesheet" type="text/css" href="css/necmergitur.tab.css" />
+    
+	<title>NecMergitur</title>
+</head>
+<body>
+	<!-- the map -->
+	<div id="map"></div>
+    <div id="selection" onclick="wapp.showSelect();"></div>
+	<!-- info -->
+	<div id="info"></div>
+
+	<!-- Menu -->
+	<div data-role="menu" data-template="principal"></div>
+
+	<!-- Canevas loader -->
+	<div id="loadCanevas" data-role="page" data-direction="up" data-template="loadCanevas"></div>
+
+	<!-- A propos -->
+	<div id="apropos" data-role="page" data-template="apropos"></div>
+
+	<!-- Options -- >
+	<div id="options" data-role="page" data-template="options"></div>
+
+	<!-- Layers -->
+	<div id="layers" data-role="page" data-template="layers"></div>
+
+	<!-- Cartes -- >
+	<div id="cartes" data-role="page" data-template="cartes"></div>
+
+	<!-- Fiche2 -->
+	<div id="bandeau" data-role="page" data-direction="up">
+		<img src="" />
+	</div>
+	<div id="fiche2" data-role="page" data-direction="up" data-template="fiche"></div>
+
+	<!-- DATA -->
+	<script type="text/javascript" src="data/ecole-42.js"></script>
+	
+	<!-- cordova -->
+    <script type="text/javascript" src="cordova.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="js/lib/jquery-1.11.0.min.js"></script>
+	<!-- Fastclick -->
+	<script type="text/javascript" src="js/lib/fastclick.js"></script>
+	<!-- OL3 -->
+	<script type="text/javascript" src="js/gppkiss/ol.js"></script>
+	<script type="text/javascript" src="js/gppkiss/geoportailconfig.js"></script>
+	<script type="text/javascript" src="js/gppkiss/geoportail.js"></script>
+	<!-- OL3-ext -->
+	<script type="text/javascript" src="js/ol3-ext/control/togglecontrol.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/ol3-ext/control/layerswitchercontrol.css" />
+	<script type="text/javascript" src="js/ol3-ext/control/layerswitchercontrol.js"></script>
+	<script type="text/javascript" src="js/ol3-ext/utils/ol.map.pulse.js"></script>
+	<script type="text/javascript" src="js/ol3-ext/layer/animatedclusterlayer.js"></script>
+	<script type="text/javascript" src="js/ol3-ext/layer/dbpediasource.js"></script>
+	<script type="text/javascript" src="js/ol3-ext/layer/erpsource.js"></script>
+	<script type="text/javascript" src="js/ol3-ext/layer/geoimagesource.js"></script>
+
+	<!-- font symbols -->
+	<script type="text/javascript" src="js/ol3-ext/style/fontsymbol.js"></script>
+	<script type="text/javascript" src="js/ol3-ext/style/fontawesome.def.js"></script>
+	<script type="text/javascript" src="js/ol3-ext/style/fontign.def.js"></script>
+
+	<script type="text/javascript" src="js/wapp/cordovapp.js"></script>
+	<script type="text/javascript" src="js/wapp/cordovapp.page.js"></script>
+	<script type="text/javascript" src="js/wapp/cordovapp.dialog.js"></script>
+	<script type="text/javascript" src="js/wapp/cordovapp.param.js"></script>
+	<script type="text/javascript" src="js/wapp/cordovapp.file.js"></script>
+	<script type="text/javascript" src="js/wapp/cordovapp.photo.js"></script>
+
+	<script type="text/javascript" src="js/config.js"></script>
+	<script type="text/javascript" src="js/necmergitur.js"></script>
+	<script type="text/javascript" src="js/necmergitur.locate.js"></script>
+	<script type="text/javascript" src="js/necmergitur.style.js"></script>
+</body>
+</html>

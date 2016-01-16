@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'fontign';
+  src: url('../fonts/fontign.eot?111831');
+  src: url('../fonts/fontign.eot?111831#iefix') format('embedded-opentype'),
+       url('../fonts/fontign.woff?111831') format('woff'),
+       url('../fonts/fontign.ttf?111831') format('truetype'),
+       url('../fonts/fontign.svg?111831#fontign') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontign';
+    src: url('../font/fontign.svg?111831#fontign') format('svg');
+  }
+}
+*/
+ 
+ [class^="ign-"]:before, [class*=" ign-"]:before {
+  font-family: "fontign";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.ign-form-blazon:before { content: '\e800'; } /* '' */
+.ign-form-bookmark:before { content: '\e801'; } /* '' */
+.ign-form-bouclier:before { content: '\e802'; } /* '' */
+.ign-form-bulle:before { content: '\e803'; } /* '' */
+.ign-form-diamant:before { content: '\e804'; } /* '' */
+.ign-form-carre:before { content: '\e805'; } /* '' */
+.ign-form-engrenage:before { content: '\e806'; } /* '' */
+.ign-form-hexagone:before { content: '\e807'; } /* '' */
+.ign-form-marker:before { content: '\e808'; } /* '' */
+.ign-form-poi:before { content: '\e809'; } /* '' */
+.ign-form-rond:before { content: '\e80a'; } /* '' */
+.ign-form-triangle:before { content: '\e80b'; } /* '' */
+.ign-form-virgule:before { content: '\e80c'; } /* '' */
+.ign-industrie-engrenage:before { content: '\e80d'; } /* '' */
+.ign-industrie-nucleaire:before { content: '\e80e'; } /* '' */
+.ign-loisir-chapiteau:before { content: '\e80f'; } /* '' */
+.ign-loisir-jeux:before { content: '\e810'; } /* '' */
+.ign-loisir-musee:before { content: '\e811'; } /* '' */
+.ign-loisir-nature:before { content: '\e812'; } /* '' */
+.ign-loisir-theatre:before { content: '\e813'; } /* '' */
+.ign-meteo-neige:before { content: '\e814'; } /* '' */
+.ign-meteo-nuageux:before { content: '\e815'; } /* '' */
+.ign-meteo-orage:before { content: '\e816'; } /* '' */
+.ign-meteo-pluie:before { content: '\e817'; } /* '' */
+.ign-meteo-soleil:before { content: '\e818'; } /* '' */
+.ign-religion-abbaye:before { content: '\e819'; } /* '' */
+.ign-religion-croix_chapelle:before { content: '\e81a'; } /* '' */
+.ign-religion-croix_eglise:before { content: '\e81b'; } /* '' */
+.ign-religion-eglise:before { content: '\e81c'; } /* '' */
+.ign-religion-tombe:before { content: '\e81d'; } /* '' */
+.ign-service-association:before { content: '\e81e'; } /* '' */
+.ign-service-creche:before { content: '\e81f'; } /* '' */
+.ign-service-handicap:before { content: '\e820'; } /* '' */
+.ign-service-emploie:before { content: '\e821'; } /* '' */
+.ign-service-hopital:before { content: '\e822'; } /* '' */
+.ign-service-i:before { content: '\e823'; } /* '' */
+.ign-service-police:before { content: '\e824'; } /* '' */
+.ign-service-livre:before { content: '\e825'; } /* '' */
+.ign-service-pompier:before { content: '\e826'; } /* '' */
+.ign-service-recyclage:before { content: '\e827'; } /* '' */
+.ign-service-toilettes:before { content: '\e828'; } /* '' */
+.ign-service-sante:before { content: '\e829'; } /* '' */
+.ign-service-wifi:before { content: '\e82a'; } /* '' */
+.ign-sport-cheval:before { content: '\e82b'; } /* '' */
+.ign-sport-course:before { content: '\e82c'; } /* '' */
+.ign-sport-nautique:before { content: '\e82d'; } /* '' */
+.ign-sport-piscine:before { content: '\e82e'; } /* '' */
+.ign-sport-tir:before { content: '\e82f'; } /* '' */
+.ign-sport-stade:before { content: '\e830'; } /* '' */
+.ign-top-camping:before { content: '\e831'; } /* '' */
+.ign-top-canoe:before { content: '\e832'; } /* '' */
+.ign-top-cheval:before { content: '\e833'; } /* '' */
+.ign-top-delta:before { content: '\e834'; } /* '' */
+.ign-top-ecusson:before { content: '\e835'; } /* '' */
+.ign-top-detente:before { content: '\e836'; } /* '' */
+.ign-top-etoile:before { content: '\e837'; } /* '' */
+.ign-top-golf:before { content: '\e838'; } /* '' */
+.ign-top-montagne:before { content: '\e839'; } /* '' */
+.ign-top-mouillage:before { content: '\e83a'; } /* '' */
+.ign-top-natation:before { content: '\e83b'; } /* '' */
+.ign-top-nautique:before { content: '\e83c'; } /* '' */
+.ign-top-piscine:before { content: '\e83d'; } /* '' */
+.ign-top-refuge:before { content: '\e83e'; } /* '' */
+.ign-top-ski:before { content: '\e83f'; } /* '' */
+.ign-top-tennis:before { content: '\e840'; } /* '' */
+.ign-top-voile:before { content: '\e841'; } /* '' */
+.ign-tourisme-caravane:before { content: '\e842'; } /* '' */
+.ign-tourisme-chateau:before { content: '\e843'; } /* '' */
+.ign-tourisme-curiosite:before { content: '\e844'; } /* '' */
+.ign-tourisme-gite:before { content: '\e845'; } /* '' */
+.ign-tourisme-hotel:before { content: '\e846'; } /* '' */
+.ign-tourisme-moulin:before { content: '\e847'; } /* '' */
+.ign-tourisme-pique_nique:before { content: '\e848'; } /* '' */
+.ign-tourisme-plage:before { content: '\e849'; } /* '' */
+.ign-tourisme-tente:before { content: '\e84a'; } /* '' */
+.ign-tourisme-tour:before { content: '\e84b'; } /* '' */
+.ign-transport-ancre:before { content: '\e84c'; } /* '' */
+.ign-transport-avion:before { content: '\e84d'; } /* '' */
+.ign-transport-bateau:before { content: '\e84e'; } /* '' */
+.ign-transport-bus:before { content: '\e84f'; } /* '' */
+.ign-transport-parking:before { content: '\e850'; } /* '' */
+.ign-transport-sncf:before { content: '\e851'; } /* '' */
+.ign-transport-taxi:before { content: '\e852'; } /* '' */
+.ign-transport-train:before { content: '\e853'; } /* '' */
+.ign-transport-valise:before { content: '\e854'; } /* '' */
+.ign-transport-velo:before { content: '\e855'; } /* '' */
+.ign-transport-voiture:before { content: '\e856'; } /* '' */
+.ign-commerce-bar:before { content: '\e857'; } /* '' */
+.ign-commerce-boutique:before { content: '\e858'; } /* '' */
+.ign-commerce-caddy:before { content: '\e859'; } /* '' */
+.ign-commerce-cafe:before { content: '\e85a'; } /* '' */
+.ign-commerce-cb:before { content: '\e85b'; } /* '' */
+.ign-commerce-essence:before { content: '\e85c'; } /* '' */
+.ign-commerce-garage:before { content: '\e85d'; } /* '' */
+.ign-commerce-mecanique:before { content: '\e85e'; } /* '' */
+.ign-commerce-monnaie:before { content: '\e85f'; } /* '' */
+.ign-commerce-poste:before { content: '\e860'; } /* '' */
+.ign-commerce-restaurant:before { content: '\e861'; } /* '' */
+.ign-commerce-veterinaire:before { content: '\e862'; } /* '' */
+.ign-construction-immeuble:before { content: '\e863'; } /* '' */
+.ign-construction-maison:before { content: '\e864'; } /* '' */
+.ign-divers-photo:before { content: '\e865'; } /* '' */
+.ign-education-ecole:before { content: '\e866'; } /* '' */
+.ign-education-universite:before { content: '\e867'; } /* '' */

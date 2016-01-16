@@ -1,0 +1,351 @@
+@font-face {
+  font-family: 'fontsjjb';
+  src: url('../font/fontsjjb.eot?2655515');
+  src: url('../font/fontsjjb.eot?2655515#iefix') format('embedded-opentype'),
+       url('../font/fontsjjb.woff?2655515') format('woff'),
+       url('../font/fontsjjb.ttf?2655515') format('truetype'),
+       url('../font/fontsjjb.svg?2655515#fontsjjb') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontsjjb';
+    src: url('../font/fontsjjb.svg?2655515#fontsjjb') format('svg');
+  }
+}
+*/
+ 
+ [class^="sjjb-"]:before, [class*=" sjjb-"]:before {
+  font-family: "fontsjjb";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.sjjb-accommodation-motel:before { content: '\e800'; } /* '' */
+.sjjb-accommodation-shelter2:before { content: '\e801'; } /* '' */
+.sjjb-accommodation-shelter:before { content: '\e802'; } /* '' */
+.sjjb-accommodation-youth_hostel:before { content: '\e803'; } /* '' */
+.sjjb-accommodation-alpinehut:before { content: '\e804'; } /* '' */
+.sjjb-accommodation-bed_and_breakfast:before { content: '\e805'; } /* '' */
+.sjjb-accommodation-bed_and_breakfast2:before { content: '\e806'; } /* '' */
+.sjjb-accommodation-camping:before { content: '\e807'; } /* '' */
+.sjjb-accommodation-caravan_park:before { content: '\e808'; } /* '' */
+.sjjb-accommodation-chalet:before { content: '\e809'; } /* '' */
+.sjjb-accommodation-chalet2:before { content: '\e80a'; } /* '' */
+.sjjb-accommodation-hostel:before { content: '\e80b'; } /* '' */
+.sjjb-accommodation-hotel:before { content: '\e80c'; } /* '' */
+.sjjb-accommodation-hotel2:before { content: '\e80d'; } /* '' */
+.sjjb-amenity-police2:before { content: '\e80e'; } /* '' */
+.sjjb-amenity-post_box:before { content: '\e80f'; } /* '' */
+.sjjb-amenity-post_office:before { content: '\e810'; } /* '' */
+.sjjb-amenity-prison:before { content: '\e811'; } /* '' */
+.sjjb-amenity-public_building:before { content: '\e812'; } /* '' */
+.sjjb-amenity-public_building2:before { content: '\e813'; } /* '' */
+.sjjb-amenity-recycling:before { content: '\e814'; } /* '' */
+.sjjb-amenity-survey_point:before { content: '\e815'; } /* '' */
+.sjjb-amenity-telephone:before { content: '\e816'; } /* '' */
+.sjjb-amenity-toilets:before { content: '\e817'; } /* '' */
+.sjjb-amenity-toilets_disabled:before { content: '\e818'; } /* '' */
+.sjjb-amenity-toilets_men:before { content: '\e819'; } /* '' */
+.sjjb-amenity-toilets_women:before { content: '\e81a'; } /* '' */
+.sjjb-amenity-town_hall:before { content: '\e81b'; } /* '' */
+.sjjb-amenity-town_hall2:before { content: '\e81c'; } /* '' */
+.sjjb-amenity-waste_bin:before { content: '\e81d'; } /* '' */
+.sjjb-amenity-bench:before { content: '\e81e'; } /* '' */
+.sjjb-amenity-court:before { content: '\e81f'; } /* '' */
+.sjjb-amenity-firestation:before { content: '\e820'; } /* '' */
+.sjjb-amenity-firestation2:before { content: '\e821'; } /* '' */
+.sjjb-amenity-firestation3:before { content: '\e822'; } /* '' */
+.sjjb-amenity-fountain:before { content: '\e823'; } /* '' */
+.sjjb-amenity-fountain2:before { content: '\e824'; } /* '' */
+.sjjb-amenity-library:before { content: '\e825'; } /* '' */
+.sjjb-amenity-library2:before { content: '\e826'; } /* '' */
+.sjjb-amenity-playground:before { content: '\e827'; } /* '' */
+.sjjb-amenity-police:before { content: '\e828'; } /* '' */
+.sjjb-barrier-steps:before { content: '\e829'; } /* '' */
+.sjjb-barrier-stile:before { content: '\e82a'; } /* '' */
+.sjjb-barrier-toll_booth:before { content: '\e82b'; } /* '' */
+.sjjb-barrier-blocks:before { content: '\e82c'; } /* '' */
+.sjjb-barrier-bollard:before { content: '\e82d'; } /* '' */
+.sjjb-barrier-cattle_grid:before { content: '\e82e'; } /* '' */
+.sjjb-barrier-cycle_barrier:before { content: '\e82f'; } /* '' */
+.sjjb-barrier-entrance:before { content: '\e830'; } /* '' */
+.sjjb-barrier-exit:before { content: '\e831'; } /* '' */
+.sjjb-barrier-gate:before { content: '\e832'; } /* '' */
+.sjjb-barrier-kissing_gate:before { content: '\e833'; } /* '' */
+.sjjb-barrier-lift_gate:before { content: '\e834'; } /* '' */
+.sjjb-education-university:before { content: '\e835'; } /* '' */
+.sjjb-education-college:before { content: '\e836'; } /* '' */
+.sjjb-education-college_vocational:before { content: '\e837'; } /* '' */
+.sjjb-education-nursery:before { content: '\e838'; } /* '' */
+.sjjb-education-nursery3:before { content: '\e839'; } /* '' */
+.sjjb-education-school:before { content: '\e83a'; } /* '' */
+.sjjb-education-school_primary:before { content: '\e83b'; } /* '' */
+.sjjb-education-school_secondary:before { content: '\e83c'; } /* '' */
+.sjjb-education-nursery2:before { content: '\e83d'; } /* '' */
+.sjjb-food-ice_cream:before { content: '\e83e'; } /* '' */
+.sjjb-food-pub:before { content: '\e83f'; } /* '' */
+.sjjb-food-restaurant:before { content: '\e840'; } /* '' */
+.sjjb-food-pizza:before { content: '\e841'; } /* '' */
+.sjjb-food-bar:before { content: '\e842'; } /* '' */
+.sjjb-food-biergarten:before { content: '\e843'; } /* '' */
+.sjjb-food-cafe:before { content: '\e844'; } /* '' */
+.sjjb-food-drinkingtap:before { content: '\e845'; } /* '' */
+.sjjb-food-fastfood:before { content: '\e846'; } /* '' */
+.sjjb-food-fastfood_pizza:before { content: '\e847'; } /* '' */
+.sjjb-food-fastfood2:before { content: '\e848'; } /* '' */
+.sjjb-health-pharmacy_dispencing:before { content: '\e849'; } /* '' */
+.sjjb-health-veterinary:before { content: '\e84a'; } /* '' */
+.sjjb-health-dentist:before { content: '\e84b'; } /* '' */
+.sjjb-health-doctors:before { content: '\e84c'; } /* '' */
+.sjjb-health-doctors2:before { content: '\e84d'; } /* '' */
+.sjjb-health-hospital_emergency:before { content: '\e84e'; } /* '' */
+.sjjb-health-hospital:before { content: '\e84f'; } /* '' */
+.sjjb-health-hospital_emergency2:before { content: '\e850'; } /* '' */
+.sjjb-health-pharmacy:before { content: '\e851'; } /* '' */
+.sjjb-health-opticians:before { content: '\e852'; } /* '' */
+.sjjb-landuse-swamp:before { content: '\e853'; } /* '' */
+.sjjb-landuse-coniferous:before { content: '\e854'; } /* '' */
+.sjjb-landuse-deciduous:before { content: '\e855'; } /* '' */
+.sjjb-landuse-grass:before { content: '\e856'; } /* '' */
+.sjjb-landuse-hills:before { content: '\e857'; } /* '' */
+.sjjb-landuse-mix:before { content: '\e858'; } /* '' */
+.sjjb-landuse-quary:before { content: '\e859'; } /* '' */
+.sjjb-landuse-scrub:before { content: '\e85a'; } /* '' */
+.sjjb-money-exchange:before { content: '\e85b'; } /* '' */
+.sjjb-money-atm:before { content: '\e85c'; } /* '' */
+.sjjb-money-atm2:before { content: '\e85d'; } /* '' */
+.sjjb-money-bank:before { content: '\e85e'; } /* '' */
+.sjjb-money-bank2:before { content: '\e85f'; } /* '' */
+.sjjb-religion-jewish3:before { content: '\e860'; } /* '' */
+.sjjb-religion-shinto:before { content: '\e861'; } /* '' */
+.sjjb-religion-shinto3:before { content: '\e862'; } /* '' */
+.sjjb-religion-sikh:before { content: '\e863'; } /* '' */
+.sjjb-religion-sikh3:before { content: '\e864'; } /* '' */
+.sjjb-religion-unknown:before { content: '\e865'; } /* '' */
+.sjjb-religion-unknown3:before { content: '\e866'; } /* '' */
+.sjjb-religion-bahai:before { content: '\e867'; } /* '' */
+.sjjb-religion-bahai3:before { content: '\e868'; } /* '' */
+.sjjb-religion-buddhist:before { content: '\e869'; } /* '' */
+.sjjb-religion-buddhist3:before { content: '\e86a'; } /* '' */
+.sjjb-religion-christian:before { content: '\e86b'; } /* '' */
+.sjjb-religion-christian3:before { content: '\e86c'; } /* '' */
+.sjjb-religion-hindu:before { content: '\e86d'; } /* '' */
+.sjjb-religion-hindu3:before { content: '\e86e'; } /* '' */
+.sjjb-religion-islamic:before { content: '\e86f'; } /* '' */
+.sjjb-religion-islamic3:before { content: '\e870'; } /* '' */
+.sjjb-religion-jain:before { content: '\e871'; } /* '' */
+.sjjb-religion-jain3:before { content: '\e872'; } /* '' */
+.sjjb-religion-jewish:before { content: '\e873'; } /* '' */
+.sjjb-poi-tower_lookout:before { content: '\e874'; } /* '' */
+.sjjb-poi-tower_power:before { content: '\e875'; } /* '' */
+.sjjb-poi-tower_water:before { content: '\e876'; } /* '' */
+.sjjb-poi-boundary_administrative:before { content: '\e877'; } /* '' */
+.sjjb-poi-cave:before { content: '\e878'; } /* '' */
+.sjjb-poi-crane:before { content: '\e879'; } /* '' */
+.sjjb-poi-embassy:before { content: '\e87a'; } /* '' */
+.sjjb-poi-embassy2:before { content: '\e87b'; } /* '' */
+.sjjb-poi-military_bunker:before { content: '\e87c'; } /* '' */
+.sjjb-poi-mine:before { content: '\e87d'; } /* '' */
+.sjjb-poi-mine_abandoned:before { content: '\e87e'; } /* '' */
+.sjjb-poi-mountain_pass:before { content: '\e87f'; } /* '' */
+.sjjb-poi-peak:before { content: '\e880'; } /* '' */
+.sjjb-poi-peak2:before { content: '\e881'; } /* '' */
+.sjjb-poi-place_city:before { content: '\e882'; } /* '' */
+.sjjb-poi-place_hamlet:before { content: '\e883'; } /* '' */
+.sjjb-poi-place_suburb:before { content: '\e884'; } /* '' */
+.sjjb-poi-place_town:before { content: '\e885'; } /* '' */
+.sjjb-poi-place_village:before { content: '\e886'; } /* '' */
+.sjjb-poi-point_of_interest:before { content: '\e887'; } /* '' */
+.sjjb-poi-tower_communications:before { content: '\e888'; } /* '' */
+.sjjb-power-tower_low:before { content: '\e889'; } /* '' */
+.sjjb-power-transformer:before { content: '\e88a'; } /* '' */
+.sjjb-power-station_coal:before { content: '\e88b'; } /* '' */
+.sjjb-power-station_solar:before { content: '\e88c'; } /* '' */
+.sjjb-power-station_gas:before { content: '\e88d'; } /* '' */
+.sjjb-power-station_water:before { content: '\e88e'; } /* '' */
+.sjjb-power-station_wind:before { content: '\e88f'; } /* '' */
+.sjjb-power-tower_high:before { content: '\e890'; } /* '' */
+.sjjb-power-substation:before { content: '\e891'; } /* '' */
+.sjjb-power-tower_high2:before { content: '\e892'; } /* '' */
+.sjjb-shopping-garden_centre:before { content: '\e893'; } /* '' */
+.sjjb-shopping-gift:before { content: '\e894'; } /* '' */
+.sjjb-shopping-greengrocer:before { content: '\e895'; } /* '' */
+.sjjb-shopping-hairdresser:before { content: '\e896'; } /* '' */
+.sjjb-shopping-hearing_aids:before { content: '\e897'; } /* '' */
+.sjjb-shopping-hifi:before { content: '\e898'; } /* '' */
+.sjjb-shopping-jewelry:before { content: '\e899'; } /* '' */
+.sjjb-shopping-jewelry2:before { content: '\e89a'; } /* '' */
+.sjjb-shopping-kiosk:before { content: '\e89b'; } /* '' */
+.sjjb-shopping-laundrette:before { content: '\e89c'; } /* '' */
+.sjjb-shopping-marketplace:before { content: '\e89d'; } /* '' */
+.sjjb-shopping-mobile_phone:before { content: '\e89e'; } /* '' */
+.sjjb-shopping-music:before { content: '\e89f'; } /* '' */
+.sjjb-shopping-motorcycle:before { content: '\e8a0'; } /* '' */
+.sjjb-shopping-newspaper:before { content: '\e8a1'; } /* '' */
+.sjjb-shopping-pet:before { content: '\e8a2'; } /* '' */
+.sjjb-shopping-pet2:before { content: '\e8a3'; } /* '' */
+.sjjb-shopping-photo:before { content: '\e8a4'; } /* '' */
+.sjjb-shopping-supermarket:before { content: '\e8a5'; } /* '' */
+.sjjb-shopping-tackle:before { content: '\e8a6'; } /* '' */
+.sjjb-shopping-tobacco:before { content: '\e8a7'; } /* '' */
+.sjjb-shopping-toys:before { content: '\e8a8'; } /* '' */
+.sjjb-shopping-vending_machine:before { content: '\e8a9'; } /* '' */
+.sjjb-shopping-video_rental:before { content: '\e8aa'; } /* '' */
+.sjjb-shopping-alcohol:before { content: '\e8ab'; } /* '' */
+.sjjb-shopping-bakery:before { content: '\e8ac'; } /* '' */
+.sjjb-shopping-bicycle:before { content: '\e8ad'; } /* '' */
+.sjjb-shopping-book:before { content: '\e8ae'; } /* '' */
+.sjjb-shopping-butcher:before { content: '\e8af'; } /* '' */
+.sjjb-shopping-butcher2:before { content: '\e8b0'; } /* '' */
+.sjjb-shopping-car:before { content: '\e8b1'; } /* '' */
+.sjjb-shopping-car_repair:before { content: '\e8b2'; } /* '' */
+.sjjb-shopping-clothes:before { content: '\e8b3'; } /* '' */
+.sjjb-shopping-computer:before { content: '\e8b4'; } /* '' */
+.sjjb-shopping-confectionery:before { content: '\e8b5'; } /* '' */
+.sjjb-shopping-convenience:before { content: '\e8b6'; } /* '' */
+.sjjb-shopping-copyshop:before { content: '\e8b7'; } /* '' */
+.sjjb-shopping-department_store:before { content: '\e8b8'; } /* '' */
+.sjjb-shopping-diy:before { content: '\e8b9'; } /* '' */
+.sjjb-shopping-estateagent:before { content: '\e8ba'; } /* '' */
+.sjjb-shopping-estateagent2:before { content: '\e8bb'; } /* '' */
+.sjjb-shopping-estateagent3:before { content: '\e8bc'; } /* '' */
+.sjjb-shopping-fish:before { content: '\e8bd'; } /* '' */
+.sjjb-shopping-florist:before { content: '\e8be'; } /* '' */
+.sjjb-sport-swimming_indoor:before { content: '\e8bf'; } /* '' */
+.sjjb-sport-swimming_outdoor:before { content: '\e8c0'; } /* '' */
+.sjjb-sport-tennis:before { content: '\e8c1'; } /* '' */
+.sjjb-sport-windsurfing:before { content: '\e8c2'; } /* '' */
+.sjjb-sport-archery:before { content: '\e8c3'; } /* '' */
+.sjjb-sport-baseball:before { content: '\e8c4'; } /* '' */
+.sjjb-sport-canoe:before { content: '\e8c5'; } /* '' */
+.sjjb-sport-cricket:before { content: '\e8c6'; } /* '' */
+.sjjb-sport-diving:before { content: '\e8c7'; } /* '' */
+.sjjb-sport-golf:before { content: '\e8c8'; } /* '' */
+.sjjb-sport-gym:before { content: '\e8c9'; } /* '' */
+.sjjb-sport-gymnasium:before { content: '\e8ca'; } /* '' */
+.sjjb-sport-gymnasium2:before { content: '\e8cb'; } /* '' */
+.sjjb-sport-hillclimbing:before { content: '\e8cc'; } /* '' */
+.sjjb-sport-horse_racing:before { content: '\e8cd'; } /* '' */
+.sjjb-sport-iceskating:before { content: '\e8ce'; } /* '' */
+.sjjb-sport-jetski:before { content: '\e8cf'; } /* '' */
+.sjjb-sport-leisure_centre:before { content: '\e8d0'; } /* '' */
+.sjjb-sport-minature_golf:before { content: '\e8d1'; } /* '' */
+.sjjb-sport-motorracing:before { content: '\e8d2'; } /* '' */
+.sjjb-sport-playground:before { content: '\e8d3'; } /* '' */
+.sjjb-sport-sailing:before { content: '\e8d4'; } /* '' */
+.sjjb-sport-shooting:before { content: '\e8d5'; } /* '' */
+.sjjb-sport-skiing_crosscountry:before { content: '\e8d6'; } /* '' */
+.sjjb-sport-skiing_downhill:before { content: '\e8d7'; } /* '' */
+.sjjb-sport-snooker:before { content: '\e8d8'; } /* '' */
+.sjjb-sport-soccer:before { content: '\e8d9'; } /* '' */
+.sjjb-sport-stadium:before { content: '\e8da'; } /* '' */
+.sjjb-tourist-wayside_shrine:before { content: '\e8db'; } /* '' */
+.sjjb-tourist-windmill:before { content: '\e8dc'; } /* '' */
+.sjjb-tourist-wreck:before { content: '\e8dd'; } /* '' */
+.sjjb-tourist-zoo:before { content: '\e8de'; } /* '' */
+.sjjb-tourist-archaeological:before { content: '\e8df'; } /* '' */
+.sjjb-tourist-archaeological2:before { content: '\e8e0'; } /* '' */
+.sjjb-tourist-art_gallery:before { content: '\e8e1'; } /* '' */
+.sjjb-tourist-art_gallery2:before { content: '\e8e2'; } /* '' */
+.sjjb-tourist-attraction:before { content: '\e8e3'; } /* '' */
+.sjjb-tourist-battlefield:before { content: '\e8e4'; } /* '' */
+.sjjb-tourist-beach:before { content: '\e8e5'; } /* '' */
+.sjjb-tourist-casino:before { content: '\e8e6'; } /* '' */
+.sjjb-tourist-castle:before { content: '\e8e7'; } /* '' */
+.sjjb-tourist-castle2:before { content: '\e8e8'; } /* '' */
+.sjjb-tourist-cinema:before { content: '\e8e9'; } /* '' */
+.sjjb-tourist-cinema2:before { content: '\e8ea'; } /* '' */
+.sjjb-tourist-clock:before { content: '\e8eb'; } /* '' */
+.sjjb-tourist-fountain:before { content: '\e8ec'; } /* '' */
+.sjjb-tourist-guidepost:before { content: '\e8ed'; } /* '' */
+.sjjb-tourist-information:before { content: '\e8ee'; } /* '' */
+.sjjb-tourist-map:before { content: '\e8ef'; } /* '' */
+.sjjb-tourist-memorial:before { content: '\e8f0'; } /* '' */
+.sjjb-tourist-monument:before { content: '\e8f1'; } /* '' */
+.sjjb-tourist-museum:before { content: '\e8f2'; } /* '' */
+.sjjb-tourist-picnic:before { content: '\e8f3'; } /* '' */
+.sjjb-tourist-ruin:before { content: '\e8f4'; } /* '' */
+.sjjb-tourist-steam_train:before { content: '\e8f5'; } /* '' */
+.sjjb-tourist-theatre:before { content: '\e8f6'; } /* '' */
+.sjjb-tourist-theme_park:before { content: '\e8f7'; } /* '' */
+.sjjb-tourist-waterwheel:before { content: '\e8f8'; } /* '' */
+.sjjb-tourist-wayside_cross:before { content: '\e8f9'; } /* '' */
+.sjjb-tourist-view_point:before { content: '\e8fa'; } /* '' */
+.sjjb-transport-parking_disabled:before { content: '\e8fb'; } /* '' */
+.sjjb-transport-parking_private2:before { content: '\e8fd'; } /* '' */
+.sjjb-transport-port:before { content: '\e8ff'; } /* '' */
+.sjjb-transport-rental_bicycle:before { content: '\e900'; } /* '' */
+.sjjb-transport-rental_car:before { content: '\e901'; } /* '' */
+.sjjb-transport-roundabout_anticlockwise:before { content: '\e902'; } /* '' */
+.sjjb-transport-roundabout_clockwise:before { content: '\e903'; } /* '' */
+.sjjb-transport-slipway:before { content: '\e904'; } /* '' */
+.sjjb-transport-speedbump:before { content: '\e905'; } /* '' */
+.sjjb-transport-subway:before { content: '\e906'; } /* '' */
+.sjjb-transport-taxi_rank:before { content: '\e907'; } /* '' */
+.sjjb-transport-traffic_lights:before { content: '\e908'; } /* '' */
+.sjjb-transport-train_station:before { content: '\e909'; } /* '' */
+.sjjb-transport-train_station2:before { content: '\e90a'; } /* '' */
+.sjjb-transport-tram_stop:before { content: '\e90b'; } /* '' */
+.sjjb-transport-turning_circle:before { content: '\e90c'; } /* '' */
+.sjjb-transport-walking:before { content: '\e90d'; } /* '' */
+.sjjb-transport-zebra_crossing:before { content: '\e90e'; } /* '' */
+.sjjb-transport-aerodrome:before { content: '\e90f'; } /* '' */
+.sjjb-transport-airport:before { content: '\e911'; } /* '' */
+.sjjb-transport-airport_gate:before { content: '\e912'; } /* '' */
+.sjjb-transport-airport_terminal:before { content: '\e913'; } /* '' */
+.sjjb-transport-airport2:before { content: '\e914'; } /* '' */
+.sjjb-transport-bus_station:before { content: '\e915'; } /* '' */
+.sjjb-transport-bus_stop:before { content: '\e916'; } /* '' */
+.sjjb-transport-bus_stop2:before { content: '\e917'; } /* '' */
+.sjjb-transport-car_share:before { content: '\e918'; } /* '' */
+.sjjb-transport-emergency_phone:before { content: '\e919'; } /* '' */
+.sjjb-transport-ford:before { content: '\e91a'; } /* '' */
+.sjjb-transport-fuel:before { content: '\e91b'; } /* '' */
+.sjjb-transport-fuel_lpg:before { content: '\e91c'; } /* '' */
+.sjjb-transport-helicopter:before { content: '\e91d'; } /* '' */
+.sjjb-transport-helicopter_pad:before { content: '\e91e'; } /* '' */
+.sjjb-transport-lighthouse:before { content: '\e91f'; } /* '' */
+.sjjb-transport-marina:before { content: '\e920'; } /* '' */
+.sjjb-transport-miniroundabout_anticlockwise:before { content: '\e921'; } /* '' */
+.sjjb-transport-miniroundabout_clockwise:before { content: '\e922'; } /* '' */
+.sjjb-transport-parking:before { content: '\e923'; } /* '' */
+.sjjb-transport-parking_bicycle:before { content: '\e924'; } /* '' */
+.sjjb-transport-parking_car:before { content: '\e925'; } /* '' */
+.sjjb-transport-parking_car_paid:before { content: '\e926'; } /* '' */
+.sjjb-water-weir:before { content: '\e927'; } /* '' */
+.sjjb-water-dam:before { content: '\e928'; } /* '' */
+.sjjb-water-tower:before { content: '\e929'; } /* '' */

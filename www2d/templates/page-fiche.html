@@ -1,0 +1,49 @@
+﻿<div class="pointlogo" onclick="wapp.hidePage();"><i class="fa fa-map-marker"></i></div>
+<div data-role="onglet">
+	<div data-role="onglet-bt">
+		<div data-list="info">
+			<i class="fa fa-list-ul"></i>Info
+		</div><div data-list="photo">
+			<i class="fa fa-camera"></i>Photo
+		</div><div data-list="plan">
+			<i class="fa fa-map"></i>Plan
+		</div><div data-list="signal">
+			<i class="fa fa-warning"></i>Signaler
+		</div><div data-list="close">
+			<i class="fa fa-close"></i>
+		</div>
+	</div>
+	
+	<!-- Fiche -->
+	<div data-role="onglet-li" data-list="info">
+		<!-- NIVELLEMENT -->
+		<div class="rn grid">
+			<h2 class="data full"><span data-attr="label"></span> <span data-attr="activity"></span></h2>
+			<div class="data full" data-attr="abstract"></div>
+		</div>
+	</div>
+	
+	<!-- Photo -->
+	<div data-role="onglet-li" data-list="photo" class="">
+		<span class="fa-stack fa-lg noimg">
+			<i class="fa fa-camera fa-stack-1x"></i>
+			<i class="fa fa-ban fa-stack-2x text-danger"></i>
+		</span>
+		<i class="fa fa-spinner fa-pulse"></i>
+		<img data-attr="image" src="img/bandeau.jpg" />
+		<p class="error">Impossible de charger la photo...</p>
+	</div>
+
+	<!-- Plans -->
+	<div data-role="onglet-li" data-list="plan" class="">
+	</div>
+
+	<!-- Signaler -->
+	<div data-role="onglet-li" data-list="signal">
+		Signaler une erreur...
+		<br />
+		<img class="photo" />
+		<br />
+		<i class="fa fa-camera button" onclick="wapp.photo();"></i>
+	</div>
+</div>
