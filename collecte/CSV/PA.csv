@@ -1,4 +1,3 @@
-@@ -0,0 +1,95 @@
 nom;activite;adresse;lat;lon;type;categorie
 Marché BASTILLE;Création;boulevard Richard Lenoir 75011 Paris, France; 2.372673;48.860321;;PA
 Marché CITE;Fleurs;Place Louis Lépine 75004 Paris, France; 2.347416;48.855053;;PA
@@ -94,4 +93,3 @@ Marché BATIGNOLES;Biologique;Boulevard des Batignolles 75008 Paris, France; 2.3
 Marché Batignolles;Alimentaire couvert;96bis, Rue Lemercier 75017 Paris, France; 2.31921;48.88916;;PA
 Marché JEAN-HENRI FABRE;Puces;Rue Jean Henri Fabre 75018 Paris, France; 2.339584;48.901196;;PA
 Marché TERNES;Fleurs;place des Ternes 75017 Paris, France; 2.297886;48.878384;;PA
-\ No newline at end of file
