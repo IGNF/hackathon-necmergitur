@@ -1,7 +1,7 @@
 [
 	{
 		"level": 1,
-		"file": "ecole-42_plan_e1.jpg",
+		"file": "ecole-42_1.jpg",
 		"georef": {
 			"imageCenter": [258090.88230228305,6257337.310439573],
 			"imageRotate": 2.628768154067054,
@@ -11,7 +11,7 @@
 	},
 	{
 		"level": 2,
-		"file": "ecole-42_plan_e2.jpg",
+		"file": "ecole-42_2.jpg",
 		"georef": {
 			"imageCenter": [258091.45787610803,6257340.814205305],
 			"imageRotate": -0.5904292826140667,
@@ -20,7 +20,7 @@
 	},
 	{
 		"level": 3,
-		"file": "ecole-42_plan_e3.jpg",
+		"file": "ecole-42_3.jpg",
 		"georef": {
 			"imageCenter": [258095.6016252333,6257337.592697488],
 			"imageRotate": -0.5026885852795854,
