@@ -1,0 +1,97 @@
+@@ -0,0 +1,95 @@
+nom;activite;adresse;lat;lon;type;categorie
+Marché BASTILLE;Création;boulevard Richard Lenoir 75011 Paris, France; 2.372673;48.860321;;PA
+Marché CITE;Fleurs;Place Louis Lépine 75004 Paris, France; 2.347416;48.855053;;PA
+Marché AGUESSEAU;Alimentaire découvert;Place de la Madeleine 75008 Paris, France; 2.325134;48.8708;;PA
+Marché AMIRAL BRUIX;Alimentaire découvert;Bd de l'Amiral Bruix 75016 Paris, France; 2.277084;48.873657;;PA
+Marché AUTEUIL;Alimentaire découvert;Place Jean Lorrain 75016 Paris, France; 2.264235;48.848042;;PA
+Marché BARBES;Alimentaire découvert;Bd de la Chapelle 75018 Paris, France; 2.357139;48.884376;;PA
+Marché BERTHIER;Alimentaire découvert;Bd de Reims 75017 Paris, France; 2.29816;48.88971;;PA
+Marché BOURSE;Alimentaire découvert;Place de la Bourse 75002 Paris, France; 2.341653;48.868584;;PA
+Marché CHARONNE;Alimentaire découvert;Bd de Charonne 75011 Paris, France; 2.395497;48.854843;;PA
+Marché EDGAR QUINET;Alimentaire découvert;Bd Edgar Quinet 75014 Paris, France; 2.322674;48.841908;;PA
+Marché GRENELLE;Alimentaire découvert;Bd de Grenelle 75015 Paris, France; 2.297894;48.849007;;PA
+Marché LECOURBE;Alimentaire découvert;Rue Lecourbe 75015 Paris, France; 2.299723;48.84174;;PA
+Marché LEDRU ROLLIN;Alimentaire découvert;Av. Ledru Rollin 75012 Paris, France; 2.371697;48.848144;;PA
+Marché MAISON BLANCHE;Alimentaire découvert;Av. d'Italie 75013 Paris, France; 2.357587;48.825085;;PA
+Marché POINT DU JOUR;Alimentaire découvert;Av. de Versailles 75016 Paris, France; 2.269147;48.842896;;PA
+Marché PORTE MOLITOR;Alimentaire découvert;porte de Molitor 75016 Paris, France; 2.26139;48.845253;;PA
+Marché Saint Didier;Alimentaire découvert;rue Mesnil 75016 Paris, France; 2.28389;48.867481;;PA
+Marché BRANCUSI;Biologique;Place Constantin Brancusi 75014 Paris, France; 2.320652;48.83699;;PA
+Marché Enfants rouges;Alimentaire couvert;33, Rue de Bretagne 75003 Paris, France; 2.36279;48.862759;;PA
+Marché Saint Didier;Alimentaire couvert;rue saint didier 75016 Paris, France; 2.285194;48.866558;;PA
+Marché La Chapelle;Alimentaire couvert;10, Rue de l'Olive 75018 Paris, France; 2.36125;48.890949;;PA
+Marché AUGUSTE BLANQUI;Alimentaire découvert;Bd Auguste Blanqui 75013 Paris, France; 2.348003;48.829708;;PA
+Marché BAUDOYER;Alimentaire découvert;Place Baudoyer 75004 Paris, France; 2.355425;48.856209;;PA
+Marché BELGRAND;Alimentaire découvert;place Edith Piaf 75020 Paris, France; 2.40475;48.864788;;PA
+Marché BOBILLOT;Alimentaire découvert;place de Rungis 75013 Paris, France; 2.346452;48.822304;;PA
+Marché COURS DE VINCENNES;Alimentaire découvert;Bd Picpus 75012 Paris, France; 2.40026;48.839699;;PA
+Marché CRIMEE CURIAL;Alimentaire découvert;Rue de Crimée 75019 Paris, France; 2.376821;48.890575;;PA
+Marché DAUMESNIL;Alimentaire découvert;Rue de Reuilly 75012 Paris, France; 2.389714;48.844673;;PA
+Marché DAVOUT;Alimentaire découvert;Bd Davout 75020 Paris, France; 2.410118;48.856007;;PA
+Marché LEFEBVRE;Alimentaire découvert;Bd Lefebvre 75015 Paris, France; 2.294734;48.830219;;PA
+Marché MAUBERT;Alimentaire découvert;Place Maubert 75005 Paris, France; 2.34847;48.849846;;PA
+Marché MONGE;Alimentaire découvert;Place Monge 75005 Paris, France; 2.35144;48.843224;;PA
+Marché NAVIER;Alimentaire découvert;Rue Navier 75017 Paris, France; 2.325054;48.895794;;PA
+Marché PARIS RIVE GAUCHE;Alimentaire découvert;Rue Jean Anouilh 75013 Paris, France; 2.377777;48.831783;;PA
+Marché POPINCOURT;Alimentaire découvert;Bd Richard Lenoir 75011 Paris, France; 2.372673;48.860321;;PA
+Marché RASPAIL;Alimentaire découvert;Bd Raspail 75006 Paris, France; 2.32947;48.842701;;PA
+Marché SAINT CHARLES;Alimentaire découvert;rue Saint Charles 75015 Paris, France; 2.283913;48.844807;;PA
+Marché SAINT HONORE;Alimentaire découvert;Place du marché Saint Honoré 75001 Paris, France; 2.331491;48.867218;;PA
+Marché SALPETRIERE;Alimentaire découvert;Bd de l'Hôpital 75013 Paris, France; 2.357179;48.833721;;PA
+Marché Saint Germain;Alimentaire couvert;4/8, Rue Lobineau 75006 Paris, France; 2.33646;48.851711;;PA
+Marché ANVERS;Alimentaire découvert;Place d'Anvers 75009 Paris, France; 2.344889;48.881874;;PA
+Marché BASTILLE;Alimentaire découvert;Bd Richard Lenoir 75011 Paris, France; 2.372673;48.860321;;PA
+Marché BELLEVILLE;Alimentaire découvert;Bd de Belleville 75011 Paris, France; 2.379707;48.869495;;PA
+Marché CERVANTES;Alimentaire découvert;Rue Barque 75015 Paris, France; 2.307954;48.838577;;PA
+Marché GROS LA FONTAINE;Alimentaire découvert;Rue Gros 75016 Paris, France; 2.275908;48.851238;;PA
+Marché ORDENER;Alimentaire découvert;rue Montcalm 75018 Paris, France; 2.337854;48.893135;;PA
+Marché PERE LACHAISE;Alimentaire découvert;Bd de Ménilmontant 75011 Paris, France; 2.387661;48.862064;;PA
+Marché PORTE DOREE;Alimentaire découvert;91 Bd Poniatowski 75012 Paris, France; 2.40374;48.83395;;PA
+Marché VINCENT AURIOL;Alimentaire découvert;64 Bd Vincent Auriol 75013 Paris, France; 2.36646;48.834549;;PA
+Marché BEAUVAU;Alimentaire découvert;Place d'Aligre 75012 Paris, France; 2.377525;48.84927;;PA
+Marché Saint Quentin;Alimentaire couvert;85 bis, Bd magenta 75010 Paris, France; 2.39055;48.900951;;PA
+Marché Beauvau;Alimentaire couvert;Place d'Aligre 75012 Paris, France; 2.377525;48.84927;;PA
+Marché Ternes;Alimentaire couvert;8bis, Rue Lebon 75017 Paris, France; 2.29225;48.88081;;PA
+Marché PORTE DE VANVES;Puces;Avenue Georges Lafenestre 75014 Paris, France; 2.310537;48.82478;;PA
+Marché ALESIA;Alimentaire découvert;Rue de la Glacière 75013 Paris, France; 2.344348;48.831753;;PA
+Marché ALIBERT;Alimentaire découvert;rue Alibert 75010 Paris, France; 2.367655;48.871651;;PA
+Marché CONVENTION;Alimentaire découvert;Rue de la convention 75015 Paris, France; 2.289562;48.84034;;PA
+Marché JEAN JAURES;Alimentaire découvert;Avenue Jean Jaurès 75019 Paris, France; 2.380161;48.885334;;PA
+Marché JOINVILLE;Alimentaire découvert;Place de Joinville 75019 Paris, France; 2.380587;48.88953;;PA
+Marché MORTIER;Alimentaire découvert;Bd mortier 75020 Paris, France; 2.408707;48.871048;;PA
+Marché MOUTON DUVERNET;Alimentaire découvert;Place Jacques Demy 75014 Paris, France; 2.327286;48.831882;;PA
+Marché NEY;Alimentaire découvert;Bd Ney 75018 Paris, France; 2.346444;48.898109;;PA
+Marché ORNANO;Alimentaire découvert;Bd Ornano 75018 Paris, France; 2.346985;48.894806;;PA
+Marché PRESIDENT WILSON;Alimentaire découvert;Av. du Président Wilson 75016 Paris, France; 2.29573;48.864792;;PA
+Marché PYRENEES;Alimentaire découvert;Rue des Pyrénées 75020 Paris, France; 2.404425;48.856949;;PA
+Marché REUNION;Alimentaire découvert;Place de la Réunion 75020 Paris, France; 2.401336;48.855915;;PA
+Marché SAINT ELOI;Alimentaire découvert;36/38 rue de Neuilly 75012 Paris, France; 2.38793;48.846168;;PA
+Marché SAINT EUSTACHE;Alimentaire découvert;Rue Montmartre 75001 Paris, France; 2.34558;48.863922;;PA
+Marché TELEGRAPHE;Alimentaire découvert;rue de Belleville 75020 Paris, France; 2.3846;48.873676;;PA
+Marché VILLEMAIN;Alimentaire découvert;av. Villemain 75014 Paris, France; 2.316691;48.831863;;PA
+Marché RASPAIL;Biologique;Boulevard Raspail 75006 Paris, France; 2.32947;48.842701;;PA
+Marché Treilhard;Alimentaire couvert;1, Rue Corvetto 75008 Paris, France; 2.31489;48.877171;;PA
+Marché Saint Martin;Alimentaire couvert;31/33, Rue du Château d'Eau 75010 Paris, France; 2.35856;48.870998;;PA
+Marché Passy;Alimentaire couvert;1, Rue Bois le Vent 75016 Paris, France; 2.27728;48.85759;;PA
+Marché Porte de Montreuil;Puces;Avenue du Professeur André Lemierre 75020 Paris, France; 2.414918;48.85669;;PA
+Marché PORTE DE CLIGNANCOURT;Puces;stade Bertrand Dauvin 75018 Paris, France; 2.360344;48.89994;;PA
+Marché EDGAR QUINET;Création;boulevard Edgar Quinet 75014 Paris, France; 2.322674;48.841908;;PA
+Marché MADELEINE;Fleurs;Place de la Madeleine 75008 Paris, France; 2.325134;48.8708;;PA
+Marché OISEAUX CITE;Oiseaux;Place Louis Lépine 75004 Paris, France; 2.347416;48.855053;;PA
+Marché CARRE MARIGNY;Timbres;Avenue de Marigny 75008 Paris, France; 2.31503;48.86948;;PA
+Marché BERCY;Alimentaire découvert;Place Lachambeaudie 75012 Paris, France; 2.387412;48.836254;;PA
+Marché BRASSENS;Alimentaire découvert;place Jacques Marette 75015 Paris, France; 2.300754;48.832939;;PA
+Marché BRUNE;Alimentaire découvert;71 du Boulevard Brune 75014 Paris, France; 2.31172;48.826359;;PA
+Marché GEORGES BRASSENS;Alimentaire découvert;Place Jacques Marette 75015 Paris, France; 2.300754;48.832939;;PA
+Marché JEANNE D'ARC;Alimentaire découvert;Place Jeanne d'Arc 75013 Paris, France; 2.367818;48.829582;;PA
+Marché PLACE DES FETES;Alimentaire découvert;Place de fêtes 75019 Paris, France; 2.394077;48.876877;;PA
+Marché PORT ROYAL;Alimentaire découvert;Bd Port Royal 75005 Paris, France; 2.348437;48.837147;;PA
+Marché PORTE BRUNET;Alimentaire découvert;Av. de la porte brunet entre Bd Sérurier et Bd d'Algérie 75019 Paris, France; 2.39669;48.883602;;PA
+Marché SAXE BRETEUIL;Alimentaire découvert;17 av. de Saxe 75007 Paris, France; 2.30901;48.849121;;PA
+Marché VILLETTE;Alimentaire découvert;41 BD de la Villette 75019 Paris, France; 2.37364;48.874821;;PA
+Marché BATIGNOLES;Biologique;Boulevard des Batignolles 75008 Paris, France; 2.321756;48.882229;;PA
+Marché Batignolles;Alimentaire couvert;96bis, Rue Lemercier 75017 Paris, France; 2.31921;48.88916;;PA
+Marché JEAN-HENRI FABRE;Puces;Rue Jean Henri Fabre 75018 Paris, France; 2.339584;48.901196;;PA
+Marché TERNES;Fleurs;place des Ternes 75017 Paris, France; 2.297886;48.878384;;PA
+\ No newline at end of file
