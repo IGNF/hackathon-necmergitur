@@ -2,6 +2,7 @@
 
 Truc exploitable : http://opendata.paris.fr/explore/dataset/etalages_et_terrasses_autorisees_a_paris/export/
 
+```
 ACCESSOIRES AUTOMOBILE
 ACTIVITES ARTISTIQUES
 ACTIVITES SPORT-LOISIRS - CLUB
@@ -267,5 +268,5 @@ VOLAILLER
 _IMMOBILIER_PUB
 _INSTAL. ECHAFAUDAGE PALISSADE
 _Non_definie
-
+```
 
