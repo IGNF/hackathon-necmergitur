@@ -2,6 +2,8 @@
 
 Truc exploitable : http://opendata.paris.fr/explore/dataset/etalages_et_terrasses_autorisees_a_paris/export/
 
+Y a plus qu'a faire le tri dans ce que l'on veut conserver
+
 ```
 ACCESSOIRES AUTOMOBILE
 ACTIVITES ARTISTIQUES
