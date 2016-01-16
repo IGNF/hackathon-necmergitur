@@ -4,6 +4,8 @@ Truc exploitable : http://opendata.paris.fr/explore/dataset/etalages_et_terrasse
 
 Y a plus qu'a faire le tri dans ce que l'on veut conserver
 
+On peut aussi adresser le type P au passage (discothèque)
+
 ```
 ACCESSOIRES AUTOMOBILE
 ACTIVITES ARTISTIQUES
