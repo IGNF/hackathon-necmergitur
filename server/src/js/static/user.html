@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REPAIRE : User</title>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/static/jquery-1.12.0.min.js"></script>
+
+    <link rel="stylesheet" href="http://openlayers.org/en/master/css/ol.css" />
+	<script type="text/javascript" src="http://openlayers.org/en/master/build/ol-debug.js"></script>
+	<!-- http://openlayers.org/en/master/build/ol-debug.js -->
+	<!-- http://openlayers.org/en/v3.2.0/build/ol.js -->
+
+
+	<script type="text/javascript" src="/static/geoportailconfig.js"></script>
+	<script type="text/javascript" src="/static/geoportail.js"></script>
+
+	<style>
+		#map
+		{	float:left;
+			margin-right:1em;
+		}
+	</style>
+</head>
+<body>
+	<div id="map" style="width:600px; height:400px;"></div>
+
+
+	<button id="send">Au secours</button>
+
+<script type="text/javascript">
+
+		var apiKey = "gwnicj6lfgj2r0jz88otg61m";
+
+		var carte = new ol.layer.Geoportail("GEOGRAPHICALGRIDSYSTEMS.MAPS");
+// Les couches
+	var layers = [carte];
+
+	// La carte
+	var map = new ol.Map.Geoportail
+		({	target: 'map',
+			key: apiKey,
+			//renderer: ["canvas", "webgl", "dom"],  /* ["webgl", "canvas", "dom"] */
+			view: new ol.View
+			({	zoom: 7,
+				center: [288074, 6247982]
+			}),
+			controls: ol.control.defaults().extend
+			([	// new ol.control.FullScreen(),
+				// new ControlNord(),
+				new ol.control.ScaleLine()
+			]),
+			interactions: ol.interaction.defaults().extend
+			([	// new ol.interaction.DragRotateAndZoom()
+			]),
+			layers: layers
+		});
+
+ var socket = io();
+
+map.on('click',function(evt){
+	var coord = ol.proj.transform(evt.coordinate, 'EPSG:3857', 'EPSG:4326');
+	
+	console.log("sendPosition")
+    socket.emit('sendPosition', coord);
+})
+
+
+
+	
+  	socket.on('sendPosition', function(msg){
+    	$('#messages').append($('<li>').text(msg));
+  	});
+</script>
+</body>
+</html>
