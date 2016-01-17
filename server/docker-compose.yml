@@ -4,6 +4,9 @@ node:
     - "8080:8080"
   links:
     - "mongo:mongo"
+  volumes:
+    - "./src:/usr/src/app/src"
+    - "../collecte:/usr/src/collecte"
 mongo:
   image: mongo
 
