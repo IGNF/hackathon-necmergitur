@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "erp-api",
+            "script": "server.js",
+            "exec_mode": "cluster"
+        }
+    ]
+}

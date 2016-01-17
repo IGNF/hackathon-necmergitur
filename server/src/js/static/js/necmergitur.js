@@ -217,8 +217,15 @@ var wapp = new CordovApp(
 	load42: function()
 	{	var geom = new ol.geom.Point( ol.proj.transform ([ecole42.lon, ecole42.lat],"EPSG:4326",this.map.getView().getProjection()) );
 		if (!ecole42.geometry) ecole42.geometry = geom;
-		feature = new ol.Feature(ecole42);
+		var feature = new ol.Feature(ecole42);
 		this.geosource.addFeature(feature);
+		//
+		var geom = new ol.geom.Point( [258064.6886, 6257348.6601] );
+		var ecole3D = $.extend( {}, ecole42 );
+		ecole3D.geometry = geom; 
+		ecole3D.url = "http://repaire.noip.me:8080/photo_sphere/index.html?number=12"; 
+		var f2= new ol.Feature(ecole3D);
+		this.geosource.addFeature(f2);
 	},
 
 	/**
@@ -305,6 +312,9 @@ var wapp = new CordovApp(
 		plan.html("");
 		var levels = f.get("levels");
 		var self = this;
+		if (f.get("url")) 
+		{	window.open(f.get("url"));
+		}
 		/*
 		if (this.geoimgLayer) 
 		{	this.map.removeLayer(this.geoimgLayer);
