@@ -1,6 +1,8 @@
-var ecole42 = {
+﻿var ecole42 = {
 	"label":" Ecole 42",
 	"abstract": "",
+	"thumbnail": "data/ecole-42.jpg",
+	"abstract": "42 est une école française d'informatique privée créée et financée par Xavier Niel (fondateur d'Iliad-Free) avec plusieurs associés, dont Nicolas Sadirac (ancien directeur général d'Epitech)1, Kwame Yamgnane et Florian Bucher (anciens cadres d'Epitech)2. Annoncée le 26 mars 20132, l'École a ouvert ses portes le 15 juillet 2013 pour la dernière phase des admissions3. Elle a accueilli les étudiants retenus pour la première rentrée en novembre 2013.",
 	"lon": 2.3187963485721657,
 	"lat": 48.89642653400926,
 	"levels":[

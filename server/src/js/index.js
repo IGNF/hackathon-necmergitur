@@ -17,12 +17,15 @@ var io = require('socket.io')(server);
 
 server.listen(8080);
 
+var allPosition = {};
+
 // Socket.io PART
 io.on('connection', function(socket){
   console.log('a user connected');
-  socket.on('sendPosition',function(position){
-  	console.log(position);
-  	io.emit("newPosition",position);
+  socket.on('sendPosition',function(data){
+  	console.log("Get Position from "+data.user);
+  	allPosition[data.user] = data;
+  	io.emit("newPosition",allPosition);
   })
 });
 
@@ -31,9 +34,19 @@ io.on('connection', function(socket){
 app.use(bodyParser.json());
 app.use(cors());
 app.use('/', express.static(__dirname +'/static'));
-app.use("/data",data(io));
-app.use("/erp", erp());
+app.use("/data",function(req,res){
+	res.json(allPosition).end();
+});
+app.use("/erp", erp.app());
 
+console.log("Loading data...")
+erp.import(function(err){
+	if (err){
+		console.log("Error :"+err)
+	} else {
+		console.log("Data loaded !")
+	}
+});
 
 
 console.log("listen on 8080");

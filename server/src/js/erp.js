@@ -2,7 +2,7 @@
  * Fork from https://github.com/jdesboeufs/necmergitur-erp
  */
 
-module.exports = function(){
+module.exports = {'app': function(){
 const load = require('./import');
 const express = require('express');
 const MongoClient = require('mongodb').MongoClient;
@@ -57,4 +57,5 @@ app.get('/import',function(req,res){
 //app.listen(process.env.PORT || 5000);
 return app
 
-};
+},
+'import': require('./import')};

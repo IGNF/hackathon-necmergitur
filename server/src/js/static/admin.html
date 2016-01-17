@@ -45,12 +45,24 @@
 					layers: layers
 				});
 			var socket = io();
-			socket.on("newPosition",function(pos){
-			
-			console.log("newPosition "+pos);
-			var feat = new ol.Feature(new ol.geom.Point(ol.proj.transform(pos, 'EPSG:4326', 'EPSG:3857')));
-			vector.getSource().addFeature(feat)
-		});
+			var features = {};
+			// socket.on("newPosition",function(data){
+			// 	console.log("Get "+JSON.stringify(data));
+			// 	if (features[data.user]){
+			// 		vector.getSource().removeFeature(features[data.user])	
+			// 	}
+			// 	var feat = new ol.Feature(new ol.geom.Point(ol.proj.transform(data.coord, 'EPSG:4326', 'EPSG:3857')));
+			// 	features[data.user] = feat;
+			// 	vector.getSource().addFeature(feat)
+			// });
+			socket.on("newPosition",function(data){
+				console.log("Get data");
+				vector.getSource().clear();
+				for (var i in data){
+					var feat = new ol.Feature(new ol.geom.Point(ol.proj.transform(data[i].coord, 'EPSG:4326', 'EPSG:3857')));
+					vector.getSource().addFeature(feat)
+				}
+			});
 			
 		</script>
 	</body>

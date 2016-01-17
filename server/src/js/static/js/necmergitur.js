@@ -79,6 +79,19 @@ var wapp = new CordovApp(
 			}
 		}));
 
+		var socket = io("http://repaire.noip.me:8080");
+		var user = "USR_"+Math.round(Math.random()*1000000);
+		// http://repaire.noip.me:8080/data pour recuperer les positions en json
+		map.addControl (new ol.control.Toggle(
+		{	"class":"signalCtrl", 
+			"html":"<i class='fa fa-map-marker'></i>",
+			"toggleFn": function(b)
+			{	var coord = map.getView().getCenter();
+				coord = ol.proj.transform ( coord, map.getView().getProjection(), 'EPSG:4326' );
+				socket.emit('sendPosition', { user:user, coord:coord });
+			}
+		}));
+
 		// Layer switcher
 		map.addControl (new ol.control.LayerSwitcher({ target:$("#layerswitcher").get(0) }));
 		

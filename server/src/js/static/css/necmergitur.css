@@ -19,6 +19,10 @@
 	white-space: nowrap;
 }
 
+.signalCtrl
+{	bottom: 0.5em;
+	left: 0.5em;
+}
 .geolocCtrl
 {	bottom: 0.5em;
 	right: 0.5em;

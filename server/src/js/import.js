@@ -15,7 +15,7 @@ const mongoConnection = MongoClient.connect(process.env.MONGODB_URL || 'mongodb:
 
 mongoConnection.then(() => debug('connection established'));
 
-const types = ['J', 'L', 'O', 'PA', 'R', 'S', 'U', 'V', 'X'];
+const types = ['J', 'L', 'O', 'PA', 'R', 'S', 'U', 'V', 'X', 'N', 'M'];
 
 function cleanData(db) {
     const clean = db.collection('erp').remove({});
