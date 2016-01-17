@@ -80,7 +80,8 @@ var wapp = new CordovApp(
 		}));
 
 		var socket = io("http://repaire.noip.me:8080");
-		var user = "USR_"+Math.round(Math.random()*1000000);
+		var user = "USR";
+		if (window.device) user = "USR_"+device.uuid;
 		// http://repaire.noip.me:8080/data pour recuperer les positions en json
 		map.addControl (new ol.control.Toggle(
 		{	"class":"signalCtrl", 
@@ -91,6 +92,17 @@ var wapp = new CordovApp(
 				socket.emit('sendPosition', { user:user, coord:coord });
 			}
 		}));
+		
+		socket.on("newPosition",function(positions)
+		{	for (var i in positions)
+			{	var pos = positions[i].coord;
+				//var feat = new ol.Feature(new ol.geom.Point(ol.proj.transform(pos, 'EPSG:4326', map.getView().getProjection())));
+				//vector.getSource().addFeature(feat);
+				var pt = ol.proj.transform(pos, 'EPSG:4326', map.getView().getProjection());
+				map.pulse(pt);
+				console.log(positions[i].user);
+			}
+		});
 
 		// Layer switcher
 		map.addControl (new ol.control.LayerSwitcher({ target:$("#layerswitcher").get(0) }));

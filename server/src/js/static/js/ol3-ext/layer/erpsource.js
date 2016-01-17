@@ -28,7 +28,7 @@ ol.source.ERP = function(opt_options)
 	options.loader = this._loaderFn;
 	
 	/** Url */
-	this._url = options.url || "http://erp-api.sgmap.fr/erp";
+	this._url = options.url || "http://repaire.noip.me:8080/erp";
 
 	/** Min resolution to load features  */
 	this._minResolution = options.minResolution || 0;
