@@ -1,6 +1,7 @@
 var express = require('express');
 var path = require('path');
 var data = require('./data');
+var erp = require('./erp');
 var bodyParser = require('body-parser')
 
 
@@ -29,6 +30,7 @@ io.on('connection', function(socket){
 app.use(bodyParser.json());
 app.use('/static', express.static(__dirname +'/static'));
 app.use("/data",data(io));
+app.use("/erp", erp());
 
 
 
