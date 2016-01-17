@@ -1,0 +1,26 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.loader {
+	margin: 0 auto;
+	width: 30px;
+	height: 30px;
+
+	border: 3px solid transparent;
+	border-top-color: #0096FF;
+	border-radius: 50%;
+
+	animation: spin 0.8s ease infinite;
+
+	margin-top: 400px;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(1turn);
+	}
+}
