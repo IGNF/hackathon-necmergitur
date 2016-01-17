@@ -1,1 +1,4 @@
 description des workbenchs FME
+Le fichier : csv_csv2geojson.fmw permet de trier et mettre en forme l'export csv brut de DataInfoGreffe.
+Le fichier : ERP-finish.fmw permet de trier et mettre au format "ERP" défini au cours de ce hackathon l'export modifié de DataInfoGreffe issu du traitement précédent.
+Les fichier sont disponibles en me contactant.
