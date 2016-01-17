@@ -10,3 +10,4 @@
 * U : hopitaux
 * V : lieu de culte
 * X : gymnases
+* M : supermarchés
