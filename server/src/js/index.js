@@ -3,6 +3,7 @@ var path = require('path');
 var data = require('./data');
 var erp = require('./erp');
 var bodyParser = require('body-parser')
+var cors = require('cors');
 
 
 
@@ -28,7 +29,8 @@ io.on('connection', function(socket){
 
 // MIDDLEWARE and ROUTER
 app.use(bodyParser.json());
-app.use('/static', express.static(__dirname +'/static'));
+app.use(cors());
+app.use('/', express.static(__dirname +'/static'));
 app.use("/data",data(io));
 app.use("/erp", erp());
 
