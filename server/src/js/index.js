@@ -28,7 +28,7 @@ io.on('connection', function(socket){
 
 // MIDDLEWARE and ROUTER
 app.use(bodyParser.json());
-app.use('/static', express.static(__dirname +'/static'));
+app.use('/', express.static(__dirname +'/static'));
 app.use("/data",data(io));
 app.use("/erp", erp());
 
