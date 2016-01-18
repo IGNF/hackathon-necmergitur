@@ -1,5 +1,6 @@
 # hackathon-necmergitur
 
+![L'équipe du Hackathon](/equipe.jpg)
 
 ### Rendu dimanche :
 
