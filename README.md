@@ -14,3 +14,6 @@
 * Site web : http://repaire.noip.me:8080/
 * Photoshpére : http://repaire.noip.me:8080/photo_sphere/index.html?number=12
 
+### Le CR du Hackathon 
+https://docs.google.com/document/d/1ZhlbR2STe2g7CgPphXKMBNb2xxGpV3i6TNG2AOIh2Uc/edit
+
